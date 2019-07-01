@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/my/main",
+    "pages/order_list/main",
+    "pages/cart/main",
+    "pages/addresslist/main",
+    "pages/tabs/main",
+    "pages/search/main",
+    "pages/list/main",
+    "pages/group/main",
+    "pages/seckill/main",
+    "pages/details/main",
+    "pages/address/main",
+    "pages/pay/main",
+    "pages/carts_pay/main",
+    "pages/order/main",
+    "pages/evaluate/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0036",
+    "navigationBarTitleText": "听众优购",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#e43130",
+    "borderStyle": "white",
+
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/indexA.png"
+      },
+      {
+        "pagePath": "pages/tabs/main",
+        "text": "分类",
+        "iconPath": "static/tabs/tabs.png",
+        "selectedIconPath": "static/tabs/tabsA.png"
+      },
+      {
+        "pagePath": "pages/cart/main",
+        "text": "购物车",
+        "iconPath": "static/tabs/cart.png",
+        "selectedIconPath": "static/tabs/cartA.png"
+      },
+      {
+        "pagePath": "pages/my/main",
+        "text": "个人",
+        "iconPath": "static/tabs/my.png",
+        "selectedIconPath": "static/tabs/myA.png"
+      }
+    ]
+  }
+}
